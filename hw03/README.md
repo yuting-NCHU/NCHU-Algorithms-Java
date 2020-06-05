@@ -20,7 +20,7 @@ for(int i=0;i<len;++i) {
 		if(id[b]>0) {b=find(b);//AYBY
 			if(a!=b) {
 				if (size[a] < size[b]) id[a] = b; 
-			else{id[b] = a;if(size[a] == size[b]) ++size[a];} --islandNum;
+				else{id[b] = a;if(size[a] == size[b]) ++size[a];} --islandNum;
 			}continue;
 		}//AYBN
 		id[b]=a;continue;
