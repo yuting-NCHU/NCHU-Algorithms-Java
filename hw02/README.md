@@ -6,6 +6,15 @@
 
 ### 8 ThreeSum4107056005
 我只要有前10名就滿足了
+據我我查，目前最快只有O(N^2)
+先用sort把陣列由小排到大
+第一個for固定一個數
+第二個for找兩個數，使三數相加=0
+所以找的目標是相加後第一個數的負數 -> tar=-A[i];
+因為是由小排到大的，所以
+h(head) -> 最小的數，往右移會越來越大
+r(rear) -> 最大的數，往左移會越來越小
+c 	-> 組合的個數
 ````java
 	public int T_sum(int[] A) {
 		int c=0,h,r,tar,end=A.length-2;
@@ -14,7 +23,7 @@
 			h=i+1; r=end+1; tar=-A[i];
 			while(h<r) {
 				if(A[h]+A[r]==tar) { ++c;++h;--r;}
-				else if(A[h]+A[r]<tar) ++h;
+				else if(A[h]+A[r]<tar) ++h; //因為小於目標所以h要向右移一個，相加後才會變大
 				else --r;
 			}
 		}
