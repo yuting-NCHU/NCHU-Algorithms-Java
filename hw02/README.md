@@ -23,7 +23,7 @@ c 	-> 有幾種組合
 			while(h<r) {
 				if(A[h]+A[r]==tar) { ++c;++h;--r;}
 				else if(A[h]+A[r]<tar) ++h; //因為小於目標所以h要向右移一個，相加後才會變大
-				else --r;
+				else --r; //因為大於目標所以r要向左移一個，相加後才會變小
 			}
 		}
 		return c;
