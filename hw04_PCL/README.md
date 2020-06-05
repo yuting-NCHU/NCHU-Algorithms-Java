@@ -14,7 +14,7 @@ public boolean checkPCL(int[][] array) {
 }
 ````
 ### 使用hashmap改良後的O(N^2)
-先固定住一點A，另外窮舉其他點  
+先固定住一點A，另外窮舉其他點B,C,D,E......  
 如果A,B的斜率=A,C的斜率就代表三點共線  
 利用hashmap可快速得知斜率是否相同 O(1)  
 在放入hashmap裡時，如果陣列裡已經有值就代表重複了  
