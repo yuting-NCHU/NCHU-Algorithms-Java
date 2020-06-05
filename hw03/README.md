@@ -4,16 +4,13 @@
 雖然有寫無hashmap版，但因為沒時間測試數字範圍，保險一點紙上傳了hashmap版  
 但沒關係我還是有第5，我棒棒!  
 
- 
-用註冊node的概念，如果陣列的值不是0就代表此node已被加進去過了
-主要是分4個case，可減少存取變數  
-AYBY>兩點皆已註冊過，如果是兩個不同的component(find root不同)，union後島嶼個數減一
->使用weight-union，以高度(size[])來union 
-AYBN->B直接接在A下面，島嶼數不變(因為B新註冊->島嶼數加一，union又減一，直接抵銷)
-ANBY->A直接接在B下面，原因同上
-ANBN->A直接接在B下面，島嶼數加一(新註冊兩點->島嶼數加2，union又減一)
-
-
+用註冊node的概念，如果陣列的值不是0就代表此node已被加進去過了  
+主要是分4個case，可減少存取變數   
+AYBY>兩點皆已註冊過，如果是兩個不同的component(find root不同)，union後島嶼個數減一  
+>使用weight-union，以高度(size[])來union   
+AYBN->B直接接在A下面，島嶼數不變(因為B新註冊->島嶼數加一，union又減一，直接抵銷)  
+ANBY->A直接接在B下面，原因同上  
+ANBN->A直接接在B下面，島嶼數加一(新註冊兩點->島嶼數加2，union又減一)  
 
 ````java
 for(int i=0;i<len;++i) {
