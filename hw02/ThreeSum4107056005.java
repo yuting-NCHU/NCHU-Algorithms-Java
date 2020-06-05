@@ -40,41 +40,4 @@ public class ThreeSum4107056005 extends ThreeSum{
 	    while(j<r){A[k] = right[j];j++; k++;}
 	    return;
 	}
-	
-//	private void mSort(int[] A) {
-//		int n=A.length;
-//		if(n<=1) return;
-//		int ln=n/2,rn=n-ln;
-//		int[] left=new int[ln];int[] right=new int[rn];
-//		for(int i=0; i<ln; i++) left[i]=A[i];
-//		for(int i=0; i<rn; i++) right[i]=A[ln+i];	
-//		mSort(left);mSort(right);merge(A,left,right);
-//	    return;
-//	}
-//	
-//	public void merge(int[] A, int[] left, int[] right){
-//		int i=0, j=0, k=0, l=left.length, r=right.length;
-//	    while(i<l && j<r){
-//	        if(left[i]<right[j]){A[k] = left[i]; i++;}
-//	        else{A[k] = right[j]; j++;}
-//	        k++;
-//	    }
-//	    while(i<l){A[k] = left[i]; i++; k++;}
-//	    while(j<r){A[k] = right[j];j++; k++;}
-//	    return;
-//	}
-	
-//	private void qSort(int[] A, int head, int tail) {
-//		if (head >= tail) return;
-//		int i = head, j = tail, pivot = A[(head + tail) / 2],t;
-//        while (i <= j) {
-//            while (A[i] < pivot) ++i;
-//            while (A[j] > pivot) --j;
-//            if (i < j) {
-//                t = A[i]; A[i] = A[j]; A[j] = t; ++i; --j;
-//            } else if (i == j) ++i;
-//        }
-//        qSort(A, head, j);
-//        qSort(A, i, tail);
-//    }
 }
