@@ -38,6 +38,7 @@ public class ArrayData4107056019 extends ArrayData{
 ![比較圖.png](比較圖.PNG)
 
 ### 與rank:2 的比較
+減少了變數(min,max)的存取次數
 ```java
 public class ArrayData4107056006 extends ArrayData{
 	private int min = Integer.MAX_VALUE;
