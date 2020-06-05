@@ -4,8 +4,10 @@
 ### 我就陰險:thumbsup:
 最後就是比運氣了，排序也就那幾種，但我發先用quick sort應該是最快的，可是不知道為什麼，明明我自己測都沒問題卻一直有記憶體存取錯誤，最後只能用穩穩的merge sort
 
+
+### divid的部分
 小技巧，排的區段小時可用insert sort  
-因為要中說當排的區段很小時，insert sort 是無敵的  
+因為耀中說當排的區段很小時，insert sort 是無敵的  
 ````java
 protected void compute(int low, int high) {
 		if (high - low < 30) { //insert sort
@@ -25,7 +27,7 @@ protected void compute(int low, int high) {
 		}
 	}
 ````
-merge的部分
+### merge的部分
 ````java
 	private void merge(int low, int middle, int high) {
 		if (A[middle - 1] <= A[middle]) //如果已排好就直接return
