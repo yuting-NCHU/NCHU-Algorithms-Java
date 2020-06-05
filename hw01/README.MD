@@ -34,6 +34,7 @@ public class ArrayData4107056019 extends ArrayData{
         }
 }
 ```
+比較圖
 ![比較圖.png](比較圖.PNG)
 
 
