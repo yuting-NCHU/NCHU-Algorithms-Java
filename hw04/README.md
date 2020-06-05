@@ -1,4 +1,5 @@
 ### 原本的垃圾O(N^3)，還會有溢位問題
+窮舉任意兩點  
 把條件y1/x1=y2/x2交叉相乘後改成y1x2=y2x1
 ````java
 public boolean checkPCL(int[][] array) {
