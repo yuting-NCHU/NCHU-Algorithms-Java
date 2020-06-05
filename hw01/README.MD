@@ -1,4 +1,4 @@
-#### ArrayData4107056005 rank:8
+### ArrayData4107056005 rank:8
 找array的最大值和最小值，沒什麼算法，直接O(N)掃過去
 ```java
 public class ArrayData4107056005 extends ArrayData{
@@ -16,7 +16,7 @@ public class ArrayData4107056005 extends ArrayData{
 	}
 }
 ```
-#### 與線程魔法使的比較 rank:5
+### 與線程魔法使的比較 rank:5
 ```java
 public class ArrayData4107056019 extends ArrayData{
     private int len;
@@ -37,7 +37,7 @@ public class ArrayData4107056019 extends ArrayData{
 比較圖
 ![比較圖.png](比較圖.PNG)
 
-#### 與rank:2 的比較
+### 與rank:2 的比較
 ```java
 public class ArrayData4107056006 extends ArrayData{
 	private int min = Integer.MAX_VALUE;
