@@ -6,5 +6,19 @@
 
 ### 8 ThreeSum4107056005
 我只要有前10名就滿足了
-
+````java
+	public int T_sum(int[] A) {
+		int c=0,h,r,tar,end=A.length-2;
+		mSort(A,A.length);
+		for(int i=0;i<end;++i) {
+			h=i+1; r=end+1; tar=-A[i];
+			while(h<r) {
+				if(A[h]+A[r]==tar) { ++c;++h;--r;}
+				else if(A[h]+A[r]<tar) ++h;
+				else --r;
+			}
+		}
+		return c;
+	}
+````
 
