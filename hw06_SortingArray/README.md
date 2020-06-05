@@ -10,35 +10,35 @@
 因為耀中說當排的區段很小時，insert sort 是無敵的  
 ````java
 protected void compute(int low, int high) {
-		if (high - low < 30) { //insert sort
-			for (int i = low + 1; i < high; ++i)
-				for (int j = i; j > low; --j)
-					if (A[j] < A[j - 1]) {
-						temp = A[j];
-						A[j] = A[j - 1];
-						A[j - 1] = temp;
-					} else
-						break;
-		} else {
-			int mid = ((high + low) >> 1);
-			compute(low, mid);
-			compute(mid, high);
-			merge(low, mid, high);
-		}
+	if (high - low < 30) { //insert sort
+		for (int i = low + 1; i < high; ++i)
+			for (int j = i; j > low; --j)
+				if (A[j] < A[j - 1]) {
+					temp = A[j];
+					A[j] = A[j - 1];
+					A[j - 1] = temp;
+				} else
+					break;
+	} else {
+		int mid = ((high + low) >> 1);
+		compute(low, mid);
+		compute(mid, high);
+		merge(low, mid, high);
 	}
+}
 ````
 ### merge的部分
 ````java
-	private void merge(int low, int middle, int high) {
-		if (A[middle - 1] <= A[middle]) //如果已排好就直接return
-			return;
-		int[] copy = new int[high - low];
-		System.arraycopy(A, low, copy, 0, copy.length);
-		int copyLow = 0, copyHigh = high - low, copyMiddle = middle - low;
-		for (int i = low, p = copyLow, q = copyMiddle; i < high; i++)
-			if (q >= copyHigh || (p < copyMiddle && copy[p] < copy[q]))
-				A[i] = copy[p++];
-			else
-				A[i] = copy[q++];
-	}
+private void merge(int low, int middle, int high) {
+	if (A[middle - 1] <= A[middle]) //如果已排好就直接return
+		return;
+	int[] copy = new int[high - low];
+	System.arraycopy(A, low, copy, 0, copy.length);
+	int copyLow = 0, copyHigh = high - low, copyMiddle = middle - low;
+	for (int i = low, p = copyLow, q = copyMiddle; i < high; i++)
+		if (q >= copyHigh || (p < copyMiddle && copy[p] < copy[q]))
+			A[i] = copy[p++];
+		else
+			A[i] = copy[q++];
+}
 ````
