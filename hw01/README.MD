@@ -20,7 +20,6 @@ public class ArrayData4107056005 extends ArrayData{
 ```java
 public class ArrayData4107056019 extends ArrayData{
     private int len;
-    public String sep = "\\";
     private int min;
     private int max;
     public ArrayData4107056019 (int[] A){
