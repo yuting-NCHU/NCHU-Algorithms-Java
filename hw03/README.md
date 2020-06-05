@@ -15,7 +15,7 @@ ANBN->A直接接在B下面，島嶼數加一(新註冊兩點->島嶼數加2，un
 
 ````java
 for(int i=0;i<len;++i) {
-	a=Integer.parseInt(A[i])+1;b=Integer.parseInt(B[i])+1; //避免node的序號為0的情況
+	a=Integer.parseInt(A[i])+1;b=Integer.parseInt(B[i])+1; //+1避免node的序號為0的情況
 	if(id[a]>0) {a=find(a);
 		if(id[b]>0) {b=find(b);//AYBY
 			if(a!=b) {
