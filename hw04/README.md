@@ -13,3 +13,24 @@ public boolean checkPCL(int[][] array) {
   return false;
 }
 ````
+### 使用hashmap改良後的O(N^2)
+
+````java
+public boolean checkPCL(int[][] array) {
+  myHash hash;
+  for(int i=array.length-1;i>-1;--i) {
+    hash=new myHash(2*i);
+    flag=false;
+    for(int j=i-1;j>-1;--j) {
+      x=(array[i][0]-array[j][0]);
+      if(x==0) {
+        if(flag==false) flag=true;
+        else return true;
+      }else {
+        if(hash.put((double)(array[i][1]-array[j][1])/x)) return true;
+      }
+    }
+  }
+  return false;
+}
+ ````
