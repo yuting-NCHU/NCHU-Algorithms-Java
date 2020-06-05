@@ -34,9 +34,6 @@ public class ArrayData4107056019 extends ArrayData{
         }
 }
 ```
-比較圖
-![比較圖.png](比較圖.PNG)
-
 ### 與rank:2 的比較
 減少了變數min,max的更動次數
 ```java
