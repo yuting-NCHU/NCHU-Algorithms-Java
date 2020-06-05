@@ -2,7 +2,7 @@
 整數陣列中的數字皆不重複，請找出能有幾種能讓 3 個數加起來合為零的組合有幾個
 
 ### 0 [ThreeSum4107056019](https://github.com/liao2000/Algorithms-Meet-Java/tree/master/Homework/HW02_ThreeSum)
-強者我同學，線程魔法使，根本不是人能看的
+強者我同學，線程魔法使，根本不是人能看的，第0名實至名歸
 
 ### 8 ThreeSum4107056005  
 據我我查，目前最快只有O(N^2)  
