@@ -20,7 +20,7 @@ protected void compute(int low, int high) {
 				} else
 					break;
 	} else {
-		int mid = ((high + low) >> 1);
+		int mid = ((high + low) >> 1); //右移一位，代表除2，現在被演算法搞到乘除是2的次方都用位移了，冏
 		compute(low, mid);
 		compute(mid, high);
 		merge(low, mid, high);
