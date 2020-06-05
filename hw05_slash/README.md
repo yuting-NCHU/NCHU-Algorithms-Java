@@ -1,4 +1,4 @@
-這是我還沒轉成位移的code
+這是我轉成位移狂魔之前的code  
 其他就沒什麼技術性了，純粹拚運氣
 ````java
 public int slash_min(int[] A) {
