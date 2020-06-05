@@ -14,19 +14,22 @@ public boolean checkPCL(int[][] array) {
 }
 ````
 ### 使用hashmap改良後的O(N^2)
-
+先固定住一點A，另外窮舉其他點
+如果A,B的斜率=A,C的斜率就代表三點共線
+利用hashmap可快速得知斜率是否相同 O(1)
+在放入hashmap裡時，如果陣列裡已經有值就代表重複了
 ````java
 public boolean checkPCL(int[][] array) {
   myHash hash;
   for(int i=array.length-1;i>-1;--i) {
-    hash=new myHash(2*i);
-    flag=false;
+    hash=new myHash(2*i); //每次更換固定點A都要用新的hashmap
+    flag=false; //flag 也要重新初始化
     for(int j=i-1;j>-1;--j) {
-      x=(array[i][0]-array[j][0]);
-      if(x==0) {
-        if(flag==false) flag=true;
-        else return true;
-      }else {
+      x=(array[i][0]-array[j][0]); 
+      if(x==0) { //為了避免算斜率時y/x會除到0而做的例外處理
+        if(flag==false) flag=true; //表示有一個x=0
+        else return true; //表示有兩個x=0，斜率相同，直接return
+      }else { //put的function會回傳ture or false，如果是true就代表斜率有重複
         if(hash.put((double)(array[i][1]-array[j][1])/x)) return true;
       }
     }
