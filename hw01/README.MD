@@ -9,8 +9,8 @@ public class ArrayData4107056005 extends ArrayData{
 		max = A[0];
 		int a=A.length;
 	    for(int i=1; i<a; i++) {
-	    	if(A[i]>max) {max=A[i];}
-	    	if(A[i]<min) {min=A[i];}
+			if(A[i]>max) {max=A[i];}
+			if(A[i]<min) {min=A[i];}
 	    }
 	        
 	}
