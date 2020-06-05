@@ -38,5 +38,4 @@ public int find(int i) {
 		id[i]=id[id[i]];i=id[i];} 
 	return i;
 }
-return islandNum;
   ````
