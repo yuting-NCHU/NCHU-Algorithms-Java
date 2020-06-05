@@ -1,3 +1,4 @@
+題目說明依舊轉給[線程魔法使](https://github.com/liao2000/Algorithms-Meet-Java/tree/master/Homework/HW05_Slash)  
 這是我轉成位移狂魔之前的code  
 其他就沒什麼技術性了，純粹拚運氣
 ````java
