@@ -1,5 +1,5 @@
 ### 5    IslandCounting4107056005
-可去[線程魔法使](https://github.com/liao2000/Algorithms-Meet-Java/tree/master/Homework/HW03_IslandCounting)那裏看題目說明
+可去[線程魔法使](https://github.com/liao2000/Algorithms-Meet-Java/tree/master/Homework/HW03_IslandCounting)那裏看題目說明  
 明明說是字串，最後才知道是數字，感覺有點被坑了  
 但沒關係我還是有第5，我棒棒!  
 ````java
