@@ -1,4 +1,4 @@
-### ArrayData4107056005 rank:8
+#### ArrayData4107056005 rank:8
 找array的最大值和最小值，沒什麼算法，直接O(N)掃過去
 ```java
 public class ArrayData4107056005 extends ArrayData{
@@ -35,3 +35,6 @@ public class ArrayData4107056019 extends ArrayData{
 }
 ```
 ![比較圖.png](比較圖.PNG)
+
+
+
