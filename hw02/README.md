@@ -13,7 +13,7 @@
 因為是由小排到大的，所以  
 h(head) -> 最小的數，往右移會越來越大  
 r(rear) -> 最大的數，往左移會越來越小  
-c 	-> 有幾種組合  
+c(count) -> 有幾種組合  
 ````java
 	public int T_sum(int[] A) {
 		int c=0,h,r,tar,end=A.length-2;
