@@ -16,7 +16,7 @@ public class ArrayData4107056005 extends ArrayData{
 	}
 }
 ```
-#### 與線程魔法使的比較
+#### 與線程魔法使的比較 rank:5
 ```java
 public class ArrayData4107056019 extends ArrayData{
     private int len;
@@ -34,3 +34,4 @@ public class ArrayData4107056019 extends ArrayData{
         }
 }
 ```
+![比較圖.png](比較圖.png)
