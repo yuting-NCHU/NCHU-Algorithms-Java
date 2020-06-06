@@ -1,0 +1,77 @@
+2020-04-14 16:40:13
+0    IslandCounting4107056019        stats: Correct                                     time: 0.647947       
+1    IslandCounting4107056042        stats: Correct                                     time: 0.699775       
+2    IslandCounting4105064002        stats: Correct                                     time: 0.861205       
+3    IslandCounting4107056040        stats: Correct                                     time: 1.110409       
+4    IslandCounting4107056037        stats: Correct                                     time: 1.115569       
+5    IslandCounting4107056005        stats: Correct                                     time: 1.256716       
+6    IslandCounting4107056002        stats: Correct                                     time: 1.265792       
+7    IslandCounting4107056011        stats: Correct                                     time: 1.540777       
+8    IslandCounting4107056001        stats: Correct                                     time: 1.577403       
+9    IslandCounting4107056027        stats: Correct                                     time: 1.902732       
+10   IslandCounting4107056007        stats: Correct                                     time: 1.992913       
+11   IslandCounting4107056015        stats: Correct                                     time: 2.011363       
+12   IslandCounting4107056030        stats: Correct                                     time: 2.050497       
+13   IslandCounting4107056006        stats: Correct                                     time: 2.067549       
+14   IslandCounting4107056028        stats: Correct                                     time: 2.091823       
+15   IslandCounting7108056089        stats: Correct                                     time: 2.118779       
+16   IslandCounting4107056016        stats: Correct                                     time: 2.131697       
+17   IslandCounting4107056004        stats: Correct                                     time: 2.188970       
+18   IslandCounting4106030323        stats: Correct                                     time: 2.336586       
+19   IslandCounting4107056003        stats: Correct                                     time: 2.357774       
+20   IslandCounting4107056017        stats: Correct                                     time: 2.368951       
+21   IslandCounting4107056035        stats: Correct                                     time: 2.532387       
+22   IslandCounting7108056167        stats: Correct                                     time: 3.227445       
+23   IslandCounting7108056219        stats: Correct                                     time: 3.346475       
+24   IslandCounting4105061037        stats: Correct                                     time: 3.496629       
+25   IslandCounting7108056084        stats: Correct                                     time: 3.966200       
+26   IslandCounting4107056032        stats: Correct                                     time: 5.093510       
+27   IslandCounting4104052115        stats: Correct                                     time: 6.186115       
+28   IslandCounting4107056010        stats: Correct                                     time: 6.331956       
+29   IslandCounting4106053013        stats: Correct                                     time: 18.044294      
+30   IslandCounting4107056021        stats: Correct                                     time: 36.408877      
+31   IslandCounting4103012038        stats: Correct                                     time: 48.178684      
+32   IslandCounting4107056029        stats: Correct                                     time: 63.023399      
+33   IslandCounting4107053020        stats: Error: InvocationTargetException.           time: 0.000000       
+34   IslandCounting4107056025        stats: Error: Timeout.                             time: 0.000000       
+35   IslandCounting4108056020        stats: Error: function count() Wrong Answer.       time: 0.000000       
+36   IslandCounting4105061116        stats: Error: Timeout.                             time: 0.000000       
+37   IslandCounting7108056053        stats: Error: Timeout.                             time: 0.000000       
+38   IslandCounting4107056024        stats: Error: InvocationTargetException.           time: 0.000000       
+39   IslandCounting4105056012        stats: Error: function count() Wrong Answer.       time: 0.000000       
+40   IslandCounting4106053002        stats: Error: Timeout.                             time: 0.000000       
+41   IslandCounting4107056041        stats: Error: function count() Wrong Answer.       time: 0.000000       
+42   IslandCounting7108056199        stats: Error: compiler error.                      time: 0.000000       
+43   IslandCounting4106053143        stats: Error: compiler error.                      time: 0.000000       
+44   IslandCounting4106061131        stats: Error: compiler error.                      time: 0.000000       
+45   IslandCounting4105053128        stats: Error: Timeout.                             time: 0.000000       
+46   IslandCounting4106056040        stats: Error: InvocationTargetException.           time: 0.000000       
+47   IslandCounting7108056029        stats: Error: Timeout.                             time: 0.000000       
+48   IslandCounting4106053139        stats: Error: Timeout.                             time: 0.000000       
+49   IslandCounting4107056023        stats: Error: compiler error.                      time: 0.000000       
+50   IslandCounting4107056009        stats: Error: Timeout.                             time: 0.000000       
+51   IslandCounting4107056018        stats: Error: function count() Wrong Answer.       time: 0.000000       
+52   IslandCounting4106053106        stats: Error: Timeout.                             time: 0.000000       
+53   IslandCounting4106030213        stats: Error: Timeout.                             time: 0.000000       
+54   IslandCounting4106056012        stats: Error: InvocationTargetException.           time: 0.000000       
+55   IslandCounting4107065023        stats: Error: function count() Wrong Answer.       time: 0.000000       
+56   IslandCounting4104040050        stats: using lib line : import java.util.*;
+	      time: 0.000000       
+57   IslandCounting4106052129        stats: Error: InvocationTargetException.           time: 0.000000       
+58   IslandCounting4107061142        stats: Error: InvocationTargetException.           time: 0.000000       
+59   IslandCounting7108056126        stats: Error: Timeout.                             time: 0.000000       
+60   IslandCounting4107053032        stats: Error: InvocationTargetException.           time: 0.000000       
+61   IslandCounting4107056034        stats: Error: InvocationTargetException.           time: 0.000000       
+62   IslandCounting4103056004        stats: Error: Timeout.                             time: 0.000000       
+63   IslandCounting4105062052        stats: Error: Timeout.                             time: 0.000000       
+64   IslandCounting4107062045        stats: error	                                      time: 0.000000       
+65   IslandCounting4106056013        stats: Error: Timeout.                             time: 0.000000       
+66   IslandCounting4106053040        stats: Error: Timeout.                             time: 0.000000       
+67   IslandCounting0108205083        stats: Error: Timeout.                             time: 0.000000       
+68   IslandCounting4105053103        stats: Error: function count() Wrong Answer.       time: 0.000000       
+69   IslandCounting4107040018        stats: Error: compiler error.                      time: 0.000000       
+70   IslandCounting4106013024        stats: Error: InvocationTargetException.           time: 0.000000       
+71   IslandCounting4107056012        stats: Error: compiler error.                      time: 0.000000       
+72   IslandCounting7108056022        stats: Error: Timeout.                             time: 0.000000       
+73   IslandCounting4105030219        stats: Error: Timeout.                             time: 0.000000       
+74   IslandCounting4107056008        stats: Error: InvocationTargetException.           time: 0.000000       
