@@ -6,10 +6,10 @@
 [線程瑋哥](https://github.com/wei-coding/Algorithm)  
 
 ### rank紀錄
-hw01_ArrayData:
-hw02_ThreeSum:
-hw03_IslandCounting: 5
-hw04_PCL:
-hw05_slash: 18
-hw06_SortingArray: 7
-hw07_LSPath
+hw01_ArrayData: 8  
+hw02_ThreeSum: 8  
+hw03_IslandCounting: 5  
+hw04_PCL: 6  
+hw05_slash: 18  
+hw06_SortingArray: 7  
+hw07_LSPath:  
