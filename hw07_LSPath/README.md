@@ -8,7 +8,7 @@
 
 至於Collection和Stack想了很久看能不能用在我的code裡面，結果發現更本用不到
 而ArrayList可用來做[adjacency list](https://www.programiz.com/dsa/graph-adjacency-list)  
-![adjacency_list](adjacency_list.PNG)
+![adjacency_list](adjacency list.PNG)
 
 還有耀中說需要每個點都做BFS，我就覺得疑惑為什麼一定要每個點都做，害我一開始對自己的做法感到懷疑，想說有什麼case是我忽略的  
 
