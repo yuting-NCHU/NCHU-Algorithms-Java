@@ -37,3 +37,5 @@ public boolean checkPCL(int[][] array) {
   return false;
 }
  ````
+### 精度問題
+double在整數相除之間不會有精度問題，此測資剛好符合
