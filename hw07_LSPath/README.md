@@ -7,8 +7,10 @@
 但我後來想說者這可能是考題的一部份，所以就自己實作了  
 
 至於Collection和Stack想了很久看能不能用在我的code裡面，結果發現更本用不到
+而ArrayList可用來做adjacency list
+![adjacency list](adjacency list.PNG)
 
-比如耀中說需要每個點都做BFS，我就覺得疑惑為什麼一定要每個點都做，害我一開始對自己的做法感到懷疑，想說有什麼case是我忽略的  
+還有耀中說需要每個點都做BFS，我就覺得疑惑為什麼一定要每個點都做，害我一開始對自己的做法感到懷疑，想說有什麼case是我忽略的  
 
 我google了兩天，一直都找不到我想要的答案，精確一點的就Dijkstra's algorithm，近似演算法只找到針對千萬或上億個node級別的論文  
 
