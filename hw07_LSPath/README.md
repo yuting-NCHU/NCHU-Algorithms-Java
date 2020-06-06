@@ -2,7 +2,10 @@
 
 但我覺得這次有耀中的誤導，所以提高了難度  
 
-比如說可import的packet，我整個??  
+比如說可import的packet，我整個??，那個Collection到底是幹甚麼用的?還有BFS不是要用Queqe做嗎?import Stack幹嘛，還特地去問助教  
+[email](email.PNG)
+但我後來想說者這可能是考題的一部份，所以就自己實作了  
+
 比如耀中說需要每個點都做BFS，我就覺得疑惑為什麼一定要每個點都做，害我一開始對自己的做法感到懷疑，想說有什麼case是我忽略的  
 
 我google了兩天，一直都找不到我想要的答案，精確一點的就Dijkstra's algorithm，近似演算法只找到針對千萬或上億個node級別的論文  
