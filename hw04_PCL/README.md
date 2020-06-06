@@ -22,10 +22,10 @@ public boolean checkPCL(int[][] array) {
 ````java
 public boolean checkPCL(int[][] array) {
   myHash hash;
-  for(int i=array.length-1;i>-1;--i) {
+  for(int i=array.length-1;i>-1;--i) { //先固定住一點A
     hash=new myHash(2*i); //每次更換固定點A都要用新的hashmap
     flag=false; //flag 也要重新初始化
-    for(int j=i-1;j>-1;--j) {
+    for(int j=i-1;j>-1;--j) { //窮舉其他點B,C,D,E...
       x=(array[i][0]-array[j][0]); 
       if(x==0) { //為了避免算斜率時y/x會除到0而做的例外處理
         if(flag==false) flag=true; //表示有一個x=0
