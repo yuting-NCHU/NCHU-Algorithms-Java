@@ -1,0 +1,81 @@
+2020-04-23 18:01:10
+0    PCL4107056011                   stats: Correct                                     time: 0.033109       
+1    PCL4106061131                   stats: Correct                                     time: 0.652694       
+2    PCL4107056002                   stats: Correct                                     time: 0.655956       
+3    PCL4107056019                   stats: Correct                                     time: 0.780628       
+4    PCL4107056006                   stats: Correct                                     time: 0.873215       
+5    PCL4107056004                   stats: Correct                                     time: 0.955093       
+6    PCL4107056005                   stats: Correct                                     time: 1.398048       
+7    PCL4107056040                   stats: Correct                                     time: 1.619786       
+8    PCL4106053139                   stats: Correct                                     time: 1.950350       
+9    PCL4106053040                   stats: Correct                                     time: 1.983346       
+10   PCL4107056035                   stats: Correct                                     time: 2.449077       
+11   PCL4107056010                   stats: Correct                                     time: 2.561249       
+12   PCL4107056024                   stats: Correct                                     time: 2.824943       
+13   PCL4107056012                   stats: Correct                                     time: 5.020313       
+14   PCL4107056032                   stats: Correct                                     time: 6.216530       
+15   PCL4107056007                   stats: Correct                                     time: 7.490391       
+16   PCL4107053032                   stats: Correct                                     time: 8.033053       
+17   PCL4107062045                   stats: Correct                                     time: 9.516648       
+18   PCL4107056025                   stats: Correct                                     time: 10.198831      
+19   PCL4107056028                   stats: Correct                                     time: 10.478252      
+20   PCL4107040018                   stats: Correct                                     time: 11.220070      
+21   PCL4107056016                   stats: Correct                                     time: 11.859800      
+22   PCL4107056021                   stats: Correct                                     time: 11.970561      
+23   PCL7108056199                   stats: Correct                                     time: 12.022876      
+24   PCL7108056219                   stats: Correct                                     time: 12.057483      
+25   PCL7108056167                   stats: Correct                                     time: 12.086618      
+26   PCL4106056012                   stats: Correct                                     time: 12.132596      
+27   PCL4104052115                   stats: Correct                                     time: 12.201591      
+28   PCL4107065004                   stats: Correct                                     time: 12.270442      
+29   PCL4105062052                   stats: Correct                                     time: 12.290367      
+30   PCL4107056036                   stats: Correct                                     time: 12.343069      
+31   PCL7108056084                   stats: Correct                                     time: 12.547100      
+32   PCL4105061037                   stats: Correct                                     time: 13.230897      
+33   PCL4106062146                   stats: Correct                                     time: 18.092510      
+34   PCL4107056015                   stats: Correct                                     time: 19.532537      
+35   PCL4107056003                   stats: Correct                                     time: 19.871503      
+36   PCL7108056029                   stats: Correct                                     time: 20.706692      
+37   PCL4107056008                   stats: Correct                                     time: 21.596198      
+38   PCL4107061142                   stats: Correct                                     time: 22.564533      
+39   PCL4103012038                   stats: Correct                                     time: 22.767527      
+40   PCL7108056022                   stats: Correct                                     time: 23.266575      
+41   PCL4106053002                   stats: Correct                                     time: 24.894744      
+42   PCL4107056029                   stats: Correct                                     time: 31.045259      
+43   PCL4107056037                   stats: Correct                                     time: 38.858210      
+44   PCL4106013024                   stats: Correct                                     time: 66.140048      
+45   PCL7108056089                   stats: Correct                                     time: 69.142465      
+46   PCL4107056030                   stats: Correct                                     time: 121.082797     
+47   PCL4106053106                   stats: Correct                                     time: 427.301353     
+48   PCL4103056004                   stats: Correct                                     time: 484.674847     
+49   PCL4105053126                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+50   PCL4107053020                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+51   PCL4105056033                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+52   PCL4107056001                   stats: Error: Timeout.                             time: 0.000000       
+53   PCL4105064002                   stats: Error: InvocationTargetException.           time: 0.000000       
+54   PCL4107056020                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+55   PCL4106053013                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+56   PCL4105053103                   stats: Error: compiler error.                      time: 0.000000       
+57   PCL4105030219                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+58   PCL4106053143                   stats: Error: InvocationTargetException.           time: 0.000000       
+59   PCL4107056041                   stats: Error: InvocationTargetException.           time: 0.000000       
+60   PCL4106052129                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+61   PCL7108056053                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+62   PCL4107056017                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+63   PCL4108056020                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+64   PCL4107056034                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+65   PCL4106056029                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+66   PCL4106030213                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+67   PCL0108205083                   stats: Error: compiler error.                      time: 0.000000       
+68   PCL4105056012                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+69   PCL4105042035                   stats: Error: compiler error.                      time: 0.000000       
+70   PCL4107056009                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+71   PCL4107056042                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+72   PCL4107056027                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+73   PCL4105053128                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+74   PCL4106053136                   stats: Error: InvocationTargetException.           time: 0.000000       
+75   PCL4107061131                   stats: Error: InvocationTargetException.           time: 0.000000       
+76   PCL4107053026                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+77   PCL4107056018                   stats: Error: Timeout.                             time: 0.000000       
+78   PCL4107056023                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
+79   PCL4106056040                   stats: Error: function checkPCL() Wrong Answer.    time: 0.000000       
