@@ -36,7 +36,7 @@ public class ArrayData4107056019 extends ArrayData{
 ```
 ### 與rank:2 的比較
 減少了變數min,max的更動次數  
-我用註解改一下我覺得會更快的方法，因為組與有學過inc這個指令，可對記憶體直接加1
+我用註解改一下我覺得會更快的方法，因為組語有學過inc這個指令，可對記憶體直接加1
 ```java
 public class ArrayData4107056006 extends ArrayData{
 	private int min = Integer.MAX_VALUE;
