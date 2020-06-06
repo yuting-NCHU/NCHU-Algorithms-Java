@@ -1,0 +1,79 @@
+2020-05-01 13:33:23
+0    slash4106053106                 stats: Correct                                     time: 0.000618       
+1    slash7108056084                 stats: Correct                                     time: 0.000684       
+2    slash4107056034                 stats: Correct                                     time: 0.000715       
+3    slash4106056012                 stats: Correct                                     time: 0.000715       
+4    slash4107056028                 stats: Correct                                     time: 0.000718       
+5    slash7108056022                 stats: Correct                                     time: 0.000720       
+6    slash4107056019                 stats: Correct                                     time: 0.000735       
+7    slash7108056167                 stats: Correct                                     time: 0.000738       
+8    slash4105053126                 stats: Correct                                     time: 0.000741       
+9    slash4107056016                 stats: Correct                                     time: 0.000748       
+10   slash4107053032                 stats: Correct                                     time: 0.000752       
+11   slash4107056008                 stats: Correct                                     time: 0.000753       
+12   slash4105061037                 stats: Correct                                     time: 0.000753       
+13   slash4107056037                 stats: Correct                                     time: 0.000756       
+14   slash4107056001                 stats: Correct                                     time: 0.000761       
+15   slash4106053013                 stats: Correct                                     time: 0.000764       
+16   slash7108056089                 stats: Correct                                     time: 0.000769       
+17   slash4107056029                 stats: Correct                                     time: 0.000771       
+18   slash4107056005                 stats: Correct                                     time: 0.000771       
+19   slash4107062045                 stats: Correct                                     time: 0.000772       
+20   slash4107056030                 stats: Correct                                     time: 0.000783       
+21   slash4105064002                 stats: Correct                                     time: 0.000783       
+22   slash4107056003                 stats: Correct                                     time: 0.000791       
+23   slash4107056036                 stats: Correct                                     time: 0.000795       
+24   slash4107056024                 stats: Correct                                     time: 0.000796       
+25   slash4107056015                 stats: Correct                                     time: 0.000796       
+26   slash7108056219                 stats: Correct                                     time: 0.000807       
+27   slash4107056020                 stats: Correct                                     time: 0.000813       
+28   slash4107056011                 stats: Correct                                     time: 0.000813       
+29   slash4106056040                 stats: Correct                                     time: 0.000814       
+30   slash7108056199                 stats: Correct                                     time: 0.000814       
+31   slash4107056012                 stats: Correct                                     time: 0.000816       
+32   slash4107056009                 stats: Correct                                     time: 0.000822       
+33   slash4107056017                 stats: Correct                                     time: 0.000832       
+34   slash4107053026                 stats: Correct                                     time: 0.000838       
+35   slash4106052129                 stats: Correct                                     time: 0.000845       
+36   slash4106013024                 stats: Correct                                     time: 0.000854       
+37   slash4107056002                 stats: Correct                                     time: 0.000858       
+38   slash4106056029                 stats: Correct                                     time: 0.000864       
+39   slash4105062052                 stats: Correct                                     time: 0.000867       
+40   slash4107056035                 stats: Correct                                     time: 0.000879       
+41   slash4107056042                 stats: Correct                                     time: 0.000882       
+42   slash4107053020                 stats: Correct                                     time: 0.000887       
+43   slash4106062146                 stats: Correct                                     time: 0.000890       
+44   slash4107056027                 stats: Correct                                     time: 0.000891       
+45   slash7108056029                 stats: Correct                                     time: 0.000907       
+46   slash4105042035                 stats: Correct                                     time: 0.000909       
+47   slash4105061116                 stats: Correct                                     time: 0.000925       
+48   slash4105053128                 stats: Correct                                     time: 0.000932       
+49   slash4106053002                 stats: Correct                                     time: 0.000932       
+50   slash4107065004                 stats: Correct                                     time: 0.001079       
+51   slash0108205083                 stats: Correct                                     time: 0.022198       
+52   slash4106056042                 stats: Correct                                     time: 0.024960       
+53   slash4107061131                 stats: Correct                                     time: 0.030274       
+54   slash4107056025                 stats: Correct                                     time: 0.036613       
+55   slash7108056126                 stats: Correct                                     time: 0.038923       
+56   slash4106030213                 stats: Correct                                     time: 0.045686       
+57   slash4106061131                 stats: Correct                                     time: 0.050805       
+58   slash4104040050                 stats: Correct                                     time: 0.058893       
+59   slash4106053040                 stats: Error: function slash_min() Wrong Answer.   time: 0.000000       
+60   slash4105030219                 stats: Error: function slash_min() Wrong Answer.   time: 0.000000       
+61   slash4107056023                 stats: Error: InvocationTargetException            time: 0.000000       
+62   slash4107056021                 stats: Error: function slash_min() Wrong Answer.   time: 0.000000       
+63   slash4106030323                 stats: Error: function slash_min() Wrong Answer.   time: 0.000000       
+64   slash4107056032                 stats: Error: InvocationTargetException            time: 0.000000       
+65   slash4107056004                 stats: Error: Timeout                              time: 0.000000       
+66   slash4107056006                 stats: Error: InvocationTargetException            time: 0.000000       
+67   slash4103056004                 stats: Error: InvocationTargetException            time: 0.000000       
+68   slash4106053139                 stats: Error: InvocationTargetException            time: 0.000000       
+69   slash4108056020                 stats: Error: function slash_min() Wrong Answer.   time: 0.000000       
+70   slash4107061142                 stats: Error: function slash_min() Wrong Answer.   time: 0.000000       
+71   slash4103012038                 stats: Error: Timeout                              time: 0.000000       
+72   slash7108056053                 stats: Error: InvocationTargetException            time: 0.000000       
+73   slash4107056010                 stats: Error: function slash_min() Wrong Answer.   time: 0.000000       
+74   slash4104052115                 stats: Error: compiler error                       time: 0.000000       
+75   slash4107056018                 stats: Error: compiler error                       time: 0.000000       
+76   slash4106053136                 stats: Error: InvocationTargetException            time: 0.000000       
+77   slash4107056040                 stats: Error: InvocationTargetException            time: 0.000000       
