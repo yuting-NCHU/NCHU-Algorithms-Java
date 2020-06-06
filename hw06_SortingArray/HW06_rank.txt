@@ -1,0 +1,77 @@
+2020-05-26 09:53:34
+0    SortingArray4107056040          stats: Correct                                     time: 0.104965       
+1    SortingArray4107056017          stats: Correct                                     time: 0.107164       
+2    SortingArray4107056019          stats: Correct                                     time: 0.110711       
+3    SortingArray4107053032          stats: Correct                                     time: 0.113625       
+4    SortingArray4107056035          stats: Correct                                     time: 0.115924       
+5    SortingArray4105061037          stats: Correct                                     time: 0.118924       
+6    SortingArray4104052115          stats: Correct                                     time: 0.119917       
+7    SortingArray4107056005          stats: Correct                                     time: 0.122725       
+8    SortingArray7108056126          stats: Correct                                     time: 0.123029       
+9    SortingArray4107056042          stats: Correct                                     time: 0.123173       
+10   SortingArray4107056008          stats: Correct                                     time: 0.125723       
+11   SortingArray4107056004          stats: Correct                                     time: 0.126085       
+12   SortingArray4107056036          stats: Correct                                     time: 0.126464       
+13   SortingArray4108056020          stats: Correct                                     time: 0.126954       
+14   SortingArray4107053026          stats: Correct                                     time: 0.126959       
+15   SortingArray4107062045          stats: Correct                                     time: 0.129228       
+16   SortingArray7108056029          stats: Correct                                     time: 0.132641       
+17   SortingArray4107056002          stats: Correct                                     time: 0.132729       
+18   SortingArray7108056022          stats: Correct                                     time: 0.133046       
+19   SortingArray7108056053          stats: Correct                                     time: 0.133134       
+20   SortingArray4106030323          stats: Correct                                     time: 0.133846       
+21   SortingArray4103056004          stats: Correct                                     time: 0.135797       
+22   SortingArray4107061142          stats: Correct                                     time: 0.136285       
+23   SortingArray4107053020          stats: Correct                                     time: 0.136836       
+24   SortingArray4106053136          stats: Correct                                     time: 0.137553       
+25   SortingArray4107056021          stats: Correct                                     time: 0.141849       
+26   SortingArray4106056040          stats: Correct                                     time: 0.142111       
+27   SortingArray4105053126          stats: Correct                                     time: 0.143413       
+28   SortingArray4107056032          stats: Correct                                     time: 0.143805       
+29   SortingArray4106053002          stats: Correct                                     time: 0.143931       
+30   SortingArray4107056001          stats: Correct                                     time: 0.144903       
+31   SortingArray4107056007          stats: Correct                                     time: 0.145574       
+32   SortingArray4105053103          stats: Correct                                     time: 0.146804       
+33   SortingArray4107056016          stats: Correct                                     time: 0.148286       
+34   SortingArray4106056042          stats: Correct                                     time: 0.148529       
+35   SortingArray7108056084          stats: Correct                                     time: 0.149882       
+36   SortingArray4106013024          stats: Correct                                     time: 0.152546       
+37   SortingArray4107056037          stats: Correct                                     time: 0.153162       
+38   SortingArray4105062052          stats: Correct                                     time: 0.153360       
+39   SortingArray4106053040          stats: Correct                                     time: 0.153988       
+40   SortingArray4105042035          stats: Correct                                     time: 0.154053       
+41   SortingArray4106052129          stats: Correct                                     time: 0.157327       
+42   SortingArray4107056020          stats: Correct                                     time: 0.158272       
+43   SortingArray4107061131          stats: Correct                                     time: 0.160253       
+44   SortingArray4107056011          stats: Correct                                     time: 0.160468       
+45   SortingArray0108205083          stats: Correct                                     time: 0.160705       
+46   SortingArray4106062146          stats: Correct                                     time: 0.167300       
+47   SortingArray4107056003          stats: Correct                                     time: 0.174785       
+48   SortingArray4107056030          stats: Correct                                     time: 0.183776       
+49   SortingArray4107056028          stats: Correct                                     time: 0.192170       
+50   SortingArray4103012038          stats: Correct                                     time: 0.194817       
+51   SortingArray4107056010          stats: Correct                                     time: 0.199721       
+52   SortingArray4107056015          stats: Correct                                     time: 0.201349       
+53   SortingArray4107056006          stats: Correct                                     time: 0.206528       
+54   SortingArray4107040018          stats: Correct                                     time: 0.220949       
+55   SortingArray4106056012          stats: Correct                                     time: 0.223371       
+56   SortingArray4105053128          stats: Correct                                     time: 0.225196       
+57   SortingArray7108056089          stats: Correct                                     time: 0.232061       
+58   SortingArray4107056025          stats: Correct                                     time: 0.568354       
+59   SortingArray4107065004          stats: Correct                                     time: 0.592197       
+60   SortingArray4106061131          stats: Correct                                     time: 0.619691       
+61   SortingArray4105030219          stats: Correct                                     time: 0.624336       
+62   SortingArray4107056023          stats: Correct                                     time: 0.632308       
+63   SortingArray4107056009          stats: Correct                                     time: 0.632980       
+64   SortingArray4106053013          stats: Correct                                     time: 0.925872       
+65   SortingArray7108056219          stats: Correct                                     time: 2.794175       
+66   SortingArray7108056167          stats: Correct                                     time: 2.801877       
+67   SortingArray4104040050          stats: Error: compiler error.                      time: 0.000000       
+68   SortingArray4105056033          stats: Error: function sorting Wrong Answer.       time: 0.000000       
+69   SortingArray4105061116          stats: Error: InvocationTargetException.           time: 0.000000       
+70   SortingArray4105064002          stats: Error: compiler error.                      time: 0.000000       
+71   SortingArray4106030213          stats: Error: compiler error.                      time: 0.000000       
+72   SortingArray4107056012          stats: Error: InvocationTargetException.           time: 0.000000       
+73   SortingArray4107056027          stats: Error: InvocationTargetException.           time: 0.000000       
+74   SortingArray4107056029          stats: Error: InvocationTargetException.           time: 0.000000       
+75   SortingArray4107056034          stats: Error: InvocationTargetException.           time: 0.000000       
