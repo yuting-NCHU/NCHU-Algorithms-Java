@@ -3,8 +3,10 @@
 但我覺得這次有耀中的誤導，所以提高了難度  
 
 比如說可import的packet，我整個??，那個Collection到底是幹甚麼用的?還有BFS不是要用Queqe做嗎?import Stack幹嘛，還特地去問助教  
-[email](email.PNG)
+![email](email.PNG)  
 但我後來想說者這可能是考題的一部份，所以就自己實作了  
+
+至於Collection和Stack想了很久看能不能用在我的code裡面，結果發現更本用不到
 
 比如耀中說需要每個點都做BFS，我就覺得疑惑為什麼一定要每個點都做，害我一開始對自己的做法感到懷疑，想說有什麼case是我忽略的  
 
