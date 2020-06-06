@@ -1,4 +1,4 @@
-
+[rank檔](https://github.com/wei-coding/Algorithm/blob/master/hw02/src/HW02_rank.txt)
 整數陣列中的數字皆不重複，請找出能讓 3 個數加起來合為零的組合有幾個
 
 ### [ThreeSum4107056019](https://github.com/liao2000/Algorithms-Meet-Java/tree/master/Homework/HW02_ThreeSum) rank:0  
