@@ -1,0 +1,86 @@
+2020-03-25 17:37:35
+0    ArrayData4107056004             stats: Correct                                     time: 0.001535       
+1    ArrayData4106053013             stats: Correct                                     time: 0.001539       
+2    ArrayData4107056006             stats: Correct                                     time: 0.001544       
+3    ArrayData4107056003             stats: Correct                                     time: 0.001551       
+4    ArrayData4108056020             stats: Correct                                     time: 0.001567       
+5    ArrayData4107056019             stats: Correct                                     time: 0.001569       
+6    ArrayData7108056053             stats: Correct                                     time: 0.001570       
+7    ArrayData4107056002             stats: Correct                                     time: 0.001578       
+8    ArrayData4107056005             stats: Correct                                     time: 0.001581       
+9    ArrayData4105061037             stats: Correct                                     time: 0.001595       
+10   ArrayData4017056040             stats: Correct                                     time: 0.001601       
+11   ArrayData4103056004             stats: Correct                                     time: 0.001615       
+12   ArrayData7108056219             stats: Correct                                     time: 0.001635       
+13   ArrayData4107056015             stats: Correct                                     time: 0.001638       
+14   ArrayData4106030323             stats: Correct                                     time: 0.001643       
+15   ArrayData4106056040             stats: Correct                                     time: 0.001652       
+16   ArrayData4107056011             stats: Correct                                     time: 0.001670       
+17   ArrayData4106056029             stats: Correct                                     time: 0.001698       
+18   ArrayData4106053139             stats: Correct                                     time: 0.001707       
+19   ArrayData4105053128             stats: Correct                                     time: 0.004237       
+20   ArrayData4107061142             stats: Correct                                     time: 0.004279       
+21   ArrayData7108056126             stats: Correct                                     time: 0.004350       
+22   ArrayData4105053103             stats: Correct                                     time: 0.004453       
+23   ArrayData4106053106             stats: Correct                                     time: 0.004479       
+24   ArrayData4105061116             stats: Correct                                     time: 0.005500       
+25   ArrayData4107056018             stats: Correct                                     time: 0.005527       
+26   ArrayData4107056017             stats: Correct                                     time: 0.005535       
+27   ArrayData4107061131             stats: Correct                                     time: 0.005538       
+28   ArrayData4107065004             stats: Correct                                     time: 0.005541       
+29   ArrayData4107056023             stats: Correct                                     time: 0.005571       
+30   ArrayData4107056027             stats: Correct                                     time: 0.005576       
+31   ArrayData4107056029             stats: Correct                                     time: 0.005602       
+32   ArrayData4107053026             stats: Correct                                     time: 0.005608       
+33   ArrayData4107056030             stats: Correct                                     time: 0.005616       
+34   ArrayData4107056037             stats: Correct                                     time: 0.005618       
+35   ArrayData4107056024             stats: Correct                                     time: 0.005626       
+36   ArrayData4107053032             stats: Correct                                     time: 0.005628       
+37   ArrayData4107056008             stats: Correct                                     time: 0.005630       
+38   ArrayData4105056012             stats: Correct                                     time: 0.005662       
+39   ArrayData4105053126             stats: Correct                                     time: 0.005663       
+40   ArrayData4107056041             stats: Correct                                     time: 0.005667       
+41   ArrayData4107056025             stats: Correct                                     time: 0.005671       
+42   ArrayData4105056033             stats: Correct                                     time: 0.005671       
+43   ArrayData4105062052             stats: Correct                                     time: 0.005687       
+44   ArrayData4107065023             stats: Correct                                     time: 0.005695       
+45   ArrayData4107056028             stats: Correct                                     time: 0.005704       
+46   ArrayData7108056022             stats: Correct                                     time: 0.005710       
+47   ArrayData7108056167             stats: Correct                                     time: 0.005724       
+48   ArrayData4106053143             stats: Correct                                     time: 0.005733       
+49   ArrayData0108205083             stats: Correct                                     time: 0.005736       
+50   ArrayData4106030213             stats: Correct                                     time: 0.005756       
+51   ArrayData4106056012             stats: Correct                                     time: 0.005762       
+52   ArrayData4107056021             stats: Correct                                     time: 0.005797       
+53   ArrayData4106053136             stats: Correct                                     time: 0.005801       
+54   ArrayData4106062146             stats: Correct                                     time: 0.005804       
+55   ArrayData4107040018             stats: Correct                                     time: 0.005811       
+56   ArrayData4106056013             stats: Correct                                     time: 0.005867       
+57   ArrayData4107056034             stats: Correct                                     time: 0.005910       
+58   ArrayData7108056084             stats: Correct                                     time: 0.005939       
+59   ArrayData4107062045             stats: Correct                                     time: 0.005946       
+60   ArrayData4105030219             stats: Correct                                     time: 0.005949       
+61   ArrayData7108056089             stats: Correct                                     time: 0.005952       
+62   ArrayData4103012038             stats: Correct                                     time: 0.005957       
+63   ArrayData4107056009             stats: Correct                                     time: 0.006074       
+64   ArrayData4107056016             stats: Correct                                     time: 0.006097       
+65   ArrayData4107056020             stats: Correct                                     time: 0.006703       
+66   ArrayData4107056042             stats: Correct                                     time: 0.006722       
+67   ArrayData4107056001             stats: Correct                                     time: 0.006848       
+68   ArrayData4107056010             stats: Correct                                     time: 0.006894       
+69   ArrayData4107056032             stats: Correct                                     time: 0.006903       
+70   ArrayData4107056035             stats: Correct                                     time: 0.007110       
+71   ArrayData4107056007             stats: Correct                                     time: 0.007377       
+72   ArrayData4107056036             stats: Correct                                     time: 0.007671       
+73   ArrayData7108056029             stats: Correct                                     time: 0.007723       
+74   ArrayData4106053002             stats: Correct                                     time: 0.007767       
+75   ArrayData4106053040             stats: Correct                                     time: 0.009149       
+76   ArrayData4106061131             stats: Correct                                     time: 0.043772       
+77   ArrayData4106052129             stats: Error: compiler error                       time: 0.000000       
+78   ArrayData4107056012             stats: Error: compiler error                       time: 0.000000       
+79   ArrayData4106013024             stats: Error: compiler error                       time: 0.000000       
+80   ArrayData4105042035             stats: Error: No Such Method Exception             time: 0.000000       
+81   ArrayData4107053020             stats: Error: No Such Method Exception             time: 0.000000       
+82   ArrayData4106056042             stats: Error: compiler error                       time: 0.000000       
+83   ArrayData4105064002             stats: Error: compiler error                       time: 0.000000       
+84   ArrayData4104052115             stats: Error: function max() Wrong Answermin() Wrong Answer  time: 0.000000       
