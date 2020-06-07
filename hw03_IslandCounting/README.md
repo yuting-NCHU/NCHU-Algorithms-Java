@@ -1,7 +1,7 @@
 ### IslandCounting4107056005 rank:5
 可去[線程魔法使](https://github.com/liao2000/Algorithms-Meet-Java/tree/master/Homework/HW03_IslandCounting)那裏看題目說明  
 >明明說是字串，最後才知道是數字，感覺有點被坑了  
-雖然有寫無hashmap版，但因為沒時間測試數字範圍，保險一點只上傳了hashmap版  
+雖然有寫無hashmap版，但因為沒時間測試數字範圍，保險一點只上傳了[hashmap](https://www.geeksforgeeks.org/internal-working-of-hashmap-java/)版  
 但沒關係我還是有第5，我棒棒!  
 
 用註冊node的概念，如果陣列的值不是0就代表此node已被加進去過了  
