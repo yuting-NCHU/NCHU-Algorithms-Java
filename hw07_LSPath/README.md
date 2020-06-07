@@ -2,7 +2,9 @@
 
 我覺得這次有耀中誤導，所以提高了難度  
 
-比如說可import的packet，我整個??，那個Collection到底是幹甚麼用的?還有BFS不是要用Queqe做嗎?import Stack幹嘛，還特地去問助教  
+比如說可import的packet，我整個??  
+![cat](cat.jpeg)
+那個Collection到底是幹甚麼用的?還有BFS不是要用Queqe做嗎?import Stack幹嘛，還特地去問助教  
 ![email](email.PNG)  
 我後來想說者這可能是考題的一部份，所以就自己實作了  
 
