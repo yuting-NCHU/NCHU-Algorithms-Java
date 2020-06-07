@@ -4,9 +4,9 @@
 
 比如說可import的packet，我整個??，那個Collection到底是幹甚麼用的?還有BFS不是要用Queqe做嗎?import Stack幹嘛，還特地去問助教  
 ![email](email.PNG)  
-但我後來想說者這可能是考題的一部份，所以就自己實作了  
+我後來想說者這可能是考題的一部份，所以就自己實作了  
 
-至於Collection和Stack想了很久看能不能用在我的code裡面，結果發現更本用不到
+至於Collection和Stack想了很久看能不能用在我的code裡面，結果發現更本用不到  
 而ArrayList可用來做[adjacency list](https://www.programiz.com/dsa/graph-adjacency-list)  
 ![adjacency_list](adjacency_list.png)
 
