@@ -4,7 +4,7 @@
 ### 其他好心人的公開code
 [線程魔法使](https://github.com/liao2000/Algorithms-Meet-Java)  
 [線程瑋哥](https://github.com/wei-coding/Algorithm)  
-[好心der人](https://github.com/tomy0000000/NCHU-Algorithms_)  
+[好心der人](https://github.com/tomy0000000/NCHU-Algorithms)  
 
 ### rank紀錄
 hw01_ArrayData: 8  
