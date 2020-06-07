@@ -14,7 +14,7 @@ public boolean checkPCL(int[][] array) {
   return false;
 }
 ````
-### 使用hashmap改良後的O(N^2)
+### 使用[hashmap](https://www.geeksforgeeks.org/internal-working-of-hashmap-java/)改良後的O(N^2)
 據我所查，目前O(N^2)已是極限  
 先固定住一點A，另外窮舉其他點B,C,D,E......  
 如果A,B的斜率=A,C的斜率就代表三點共線  
