@@ -5,7 +5,7 @@
 但沒關係我還是有第5，我棒棒!  
 
 用註冊node的概念，如果陣列的值不是0就代表此node已被加進去過了  
-主要是分4個case，可減少存取變數   
+主要是分4個case，可減少存取和更改變數   
 AYBY->兩點皆已註冊過，如果是兩個不同的component(find root不同)，union後島嶼個數減一  
 >使用weight-union，以高度(size[])來union   
 
