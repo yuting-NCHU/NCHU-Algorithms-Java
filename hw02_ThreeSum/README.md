@@ -17,7 +17,7 @@ c(count) -> 有幾種組合
 ````java
 	public int T_sum(int[] A) {
 		int c=0,h,r,tar,end=A.length-2;
-		mSort(A,A.length);
+		mSort(A,A.length); //做排序
 		for(int i=0;i<end;++i) {
 			h=i+1; r=end+1; tar=-A[i];
 			while(h<r) {
