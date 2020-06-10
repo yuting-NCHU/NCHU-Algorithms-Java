@@ -2,7 +2,7 @@
 演算法java作業
 
 ### 其他好心人的公開code
-[線程魔法使](Algorithms-Meet-Java)  
+[線程魔法使]
 [線程瑋哥](https://github.com/wei-coding/Algorithm)  
 [好心der人](https://github.com/tomy0000000/NCHU-Algorithms)  
 
