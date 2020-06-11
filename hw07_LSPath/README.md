@@ -29,8 +29,8 @@ while(front!=null){
   front=front.next; //最後才刪掉
 }
 ```
-3. node的部分，耀中雖說有百萬筆，但node大改只有12000個，一開始我陣列大小設兩百萬跑很慢，陣列設小一點跑比較快  
-所以我預設V=12000，但以防萬益我還是遍歷了所有array找最大值，但即使這樣，還是會比一開始就設成超大陣列還要快
+3. node的部分，耀中雖說有百萬筆，但node大概只有12000個，一開始我陣列大小設兩百萬跑很慢，陣列設小一點跑比較快   
+所以我預設V=12000，但以防萬一我還是遍歷了所有array找最大值，但即使這樣，還是會比一開始就設成超大陣列還要快
 ```java
 int len=array.length,i=0,V = 12000;
 boolean[] mark;
@@ -56,7 +56,7 @@ for(i=0;i<len;++i) {
 還有耀中說需要每個點都做BFS，我就覺得疑惑為什麼一定要每個點都做，不是只要[兩次BFS](https://stackoverflow.com/questions/21431379/approximation-algorithem-for-finding-diameter-of-a-graph)就行了嗎?害我一開始對自己的做法感到懷疑，想說有什麼case是我忽略的，我google了兩天，一直都找不到我想要的答案，精確一點的就Dijkstra's algorithm，近似演算法只找到針對千萬或上億個node級別的論文(記憶體切片，平行處理，圖node的壓縮)  
 
 直到我發現了一篇文章，知道了我的作法的[例外case](https://cs.stackexchange.com/questions/194/the-time-complexity-of-finding-the-diameter-of-a-graph)長什麼樣，幸好老師很nice還給誤差範圍，我估了一下誤差大概是多少，應該有在誤差範圍內   
-![graph](graph.PNG)   
+![graph](graph.jpg)   
 
 在左邊那個case裡，如果不幸選到start當起點，且剛好end為終點，就會發生算出來是3，答案實際上是4的情況，如果像右圖一樣再擴一層，誤差會變成2  
 也就是說，誤差為4要擴四層，但我想助教也沒那麼閒出測資搞我們，就算有這樣的測資，要剛好start和end要是那幾個點，機率小到可以買樂透，所以我最後使用了這個方法
