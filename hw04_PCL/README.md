@@ -39,8 +39,8 @@ public boolean checkPCL(int[][] array) {
   return false;
 }
  ````
-### 精度問題
-#### [丟失精度原因](https://www.jianshu.com/p/f9d22220cb23)
+## 精度問題
+### [丟失精度原因](https://www.jianshu.com/p/f9d22220cb23)
 二進制無法精確表示某些小數  
 就像我們無法把1/3表示成小數一樣，因為會無限循環1.3333333333333....  
 同理，0.9表示成二進制數：
@@ -66,5 +66,5 @@ public boolean checkPCL(int[][] array) {
 
 但整數轉換成二進位不會有精度丟失的問題  
 
-#### 結論
+### 結論
 double在整數相除之間不會有精度問題，此測資剛好符合
