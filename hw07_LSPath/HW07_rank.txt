@@ -1,0 +1,69 @@
+2020-06-11 11:22:11
+0    LSPath4107056019                stats: Correct                                     time: 0.026167       
+1    LSPath4107056005                stats: Correct                                     time: 0.031831       
+2    LSPath4107056008                stats: Correct                                     time: 0.032353       
+3    LSPath4107056040                stats: Correct                                     time: 0.043728       
+4    LSPath4105061037                stats: Correct                                     time: 0.050201       
+5    LSPath4107056004                stats: Correct                                     time: 0.057872       
+6    LSPath7108056219                stats: Correct                                     time: 0.074425       
+7    LSPath4107065004                stats: Correct                                     time: 0.075980       
+8    LSPath7108056167                stats: Correct                                     time: 0.082252       
+9    LSPath4107056027                stats: Correct                                     time: 0.093751       
+10   LSPath4107056042                stats: Correct                                     time: 0.093986       
+11   LSPath4105062052                stats: Correct                                     time: 0.097906       
+12   LSPath4107056002                stats: Correct                                     time: 0.141526       
+13   LSPath4107053020                stats: Correct                                     time: 0.145221       
+14   LSPath4107056011                stats: Correct                                     time: 0.148688       
+15   LSPath4107056028                stats: Correct                                     time: 0.151898       
+16   LSPath4107056029                stats: Correct                                     time: 0.155817       
+17   LSPath4107061142                stats: Correct                                     time: 0.156327       
+18   LSPath4107056035                stats: Correct                                     time: 0.156720       
+19   LSPath4107056036                stats: Correct                                     time: 0.157484       
+20   LSPath4105064002                stats: Correct                                     time: 0.160570       
+21   LSPath4107056023                stats: Correct                                     time: 0.163186       
+22   LSPath4107056020                stats: Correct                                     time: 0.165069       
+23   LSPath4107056032                stats: Correct                                     time: 0.165276       
+24   LSPath4107056024                stats: Correct                                     time: 0.166487       
+25   LSPath4103012038                stats: Correct                                     time: 0.177958       
+26   LSPath4107056010                stats: Correct                                     time: 0.178802       
+27   LSPath4107056001                stats: Correct                                     time: 0.180508       
+28   LSPath4106053013                stats: Correct                                     time: 0.181136       
+29   LSPath4105053103                stats: Correct                                     time: 0.183013       
+30   LSPath4107056003                stats: Correct                                     time: 0.187198       
+31   LSPath4106053040                stats: Correct                                     time: 0.190004       
+32   LSPath4107056006                stats: Correct                                     time: 0.191093       
+33   LSPath4105053128                stats: Correct                                     time: 0.200087       
+34   LSPath4107056009                stats: Correct                                     time: 0.231203       
+35   LSPath4107056030                stats: Correct                                     time: 0.234792       
+36   LSPath4105042035                stats: Correct                                     time: 0.240778       
+37   LSPath4106056042                stats: Correct                                     time: 0.243559       
+38   LSPath7108056089                stats: Correct                                     time: 0.262425       
+39   LSPath4105030219                stats: Correct                                     time: 0.271632       
+40   LSPath4107056021                stats: Correct                                     time: 0.330351       
+41   LSPath4107056037                stats: Correct                                     time: 0.443127       
+42   LSPath4107053032                stats: Correct                                     time: 0.546000       
+43   LSPath4104052115                stats: Correct                                     time: 1.358955       
+44   LSPath4107061131                stats: Correct                                     time: 6.320352       
+45   LSPath4107056016                stats: Correct                                     time: 26.526603      
+46   LSPath0108205083                stats: Error: Timeout.                             time: 0.000000       
+47   LSPath4104040050                stats: Error: InvocationTargetException.           time: 0.000000       
+48   LSPath4105053126                stats: Error: compiler error.                      time: 0.000000       
+49   LSPath4105061116                stats: Error: compiler error.                      time: 0.000000       
+50   LSPath4106013024                stats: error	                                      time: 0.000000       
+51   LSPath4106030213                stats: Error: function Ans() Wrong Answer.         time: 0.000000       
+52   LSPath4106030323                stats: using lib line : java
+	                     time: 0.000000       
+53   LSPath4106052129                stats: error	                                      time: 0.000000       
+54   LSPath4106056029                stats: Error: function Ans() Wrong Answer.         time: 0.000000       
+55   LSPath4106056040                stats: Error: function Ans() Wrong Answer.         time: 0.000000       
+56   LSPath4106061131                stats: Error: InvocationTargetException.           time: 0.000000       
+57   LSPath4107040018                stats: Error: compiler error.                      time: 0.000000       
+58   LSPath4107053026                stats: Error: InvocationTargetException.           time: 0.000000       
+59   LSPath4107056012                stats: Error: function Ans() Wrong Answer.         time: 0.000000       
+60   LSPath4107056015                stats: Error: function Ans() Wrong Answer.         time: 0.000000       
+61   LSPath4107056018                stats: Error: compiler error.                      time: 0.000000       
+62   LSPath7108056022                stats: Error: function Ans() Wrong Answer.         time: 0.000000       
+63   LSPath7108056029                stats: Error: function Ans() Wrong Answer.         time: 0.000000       
+64   LSPath7108056084                stats: Error: InvocationTargetException.           time: 0.000000       
+65   LSPath7108056126                stats: error	                                      time: 0.000000       
+66   LSPath7108056199                stats: Error: function Ans() Wrong Answer.         time: 0.000000       
