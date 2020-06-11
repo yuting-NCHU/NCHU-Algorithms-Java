@@ -5,14 +5,16 @@ public class LSPath4107056005 extends LSPath{
 	@Override
 	public int Ans(int[][] array) {
 		Node node=null,rear,front;;
-		int len=array.length,i=0,V = 12000;
+		int len=array.length,i=0,V = 12000; //不能設太小，不然會一直更動，降低效能
 		boolean[] mark;
+		//找總共需要多少陣列空間
 		for(i=0;i<len;++i) {
 			if(array[i][1]>V) V=array[i][1];
 			if(array[i][0]>V) V=array[i][0];
 		}
 		++V;
 		Node[] adj=new Node[V];
+		//做adjency list
 		for(i=0;i<len;++i) {
 			node=new Node(array[i][1]);node.next=adj[array[i][0]];adj[array[i][0]]=node;
 			node=new Node(array[i][0]);node.next=adj[array[i][1]];adj[array[i][1]]=node;
