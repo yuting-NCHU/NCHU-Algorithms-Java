@@ -68,3 +68,19 @@ public boolean checkPCL(int[][] array) {
 
 ### 結論
 double在整數相除之間不會有精度問題，此測資剛好符合
+
+### 更
+根據[線程魔法使](https://github.com/liao2000/Algorithms-Meet-Java/tree/master/Homework/HW04_PCL)還是出現了例外case  
+```java
+long num1 = 189096792L;
+long num2 = 1890228383L;
+long num3 = 183414967L;
+long num4 = 1833432354L;
+System.out.println(num1 * num4);    //346696176490408368
+System.out.println(num2 * num3);    //346696176490408361
+System.out.println((double)(num1) / (double)(num2)); // 0.10003912421412413
+System.out.println((double)(num3) / (double)(num4)); // 0.10003912421412413
+```
+沒辦法，畢竟double只有64 byte  
+0.10003912421412413* 後面的它表示不出來，太小了  
+精確作法可參考線程魔法使
