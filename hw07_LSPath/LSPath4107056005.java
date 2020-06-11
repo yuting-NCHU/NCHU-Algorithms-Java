@@ -17,11 +17,11 @@ public class LSPath4107056005 extends LSPath{
 			node=new Node(array[i][1]);node.next=adj[array[i][0]];adj[array[i][0]]=node;
 			node=new Node(array[i][0]);node.next=adj[array[i][1]];adj[array[i][1]]=node;
 		}
-		
-		int v=array[len>>1][0],next=0;
+		//v=start 隨便一個點都行
+		int v=array[0][1],next=0;
 		front=new Node(v);rear=front;
 		mark=new boolean[V];
-		while(front!=null) {
+		while(front!=null) { //第一次BFS
 			v=front.key;mark[v]=true;node=adj[v];
 			while(node!=null) {
 				next=node.key;
@@ -36,7 +36,7 @@ public class LSPath4107056005 extends LSPath{
 		mark=new boolean[V];
 		int[] dis=new int[V];
 		front=new Node(v);rear=front;
-		while(front!=null) {
+		while(front!=null) { //第二次BFS
 			v=front.key;mark[v]=true;node=adj[v];
 			while(node!=null) {
 				next=node.key;
@@ -48,7 +48,7 @@ public class LSPath4107056005 extends LSPath{
 			}
 			front=front.next;
 		}
-		return dis[v]+4;
+		return dis[v]+4; //因BFS只可能算小不可能算大，所以又加4(誤差範圍)
 	}
 	
 
