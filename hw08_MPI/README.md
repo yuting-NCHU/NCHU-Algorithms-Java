@@ -19,12 +19,12 @@
 話說這次最快就是O(N)了吧  
 在我前面的是怎樣?全都線程魔法使?  
 
-----------------晚上補更-----------------------
+----------------晚上補更-----------------------  
 ㄜ...魔法使說好的加速呢....  
 為什麼我用線程反而更慢惹QQ  
-7    MPI4107056005(無thread)      stats: Correct     time: 0.174758  
-29   MPI4107056005_2(8 thread)    stats: Correct     time: 0.344303   
-37   MPI4107056005_3(16 thread)   stats: Correct     time: 0.417257   
+7&emsp;&ensp;MPI4107056005(無thread)&ensp;&emsp;&emsp;stats: Correct&emsp;&emsp;time: 0.174758  
+29&emsp;MPI4107056005_2(8 thread)&nbsp;&nbsp;&emsp;stats: Correct&emsp;&emsp;     time: 0.344303   
+37&emsp;MPI4107056005_3(16 thread)&emsp;stats: Correct&emsp;&emsp;time: 0.417257   
 難道就不能讓我享受一下用線程加速的效果嗎   
 不過我之前就覺得奇怪  
 網路上是說thread只會**模擬**平行處理而已  
