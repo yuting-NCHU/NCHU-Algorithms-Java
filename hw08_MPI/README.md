@@ -30,4 +30,39 @@
 不過我之前就覺得奇怪，網路上是說thread只會**模擬**平行處理而已，實際上應該不會變快才對  
 所以我才一直沒用這個方法  
 不然就是耀中的server很高級真的能平行跑，但被助教發現了我們的陰謀，所以變得不能用thread加速  
-好吧我還是老實點自己想有什麼算法可以加速ㄅ...  
+好吧我還是老實點自己想有什麼算法可以加速ㄅ...   
+
+### 6/13
+今天發現網路上居然有答案可以抄抄  
+感覺很像trhee-way quick sort  
+邊排序邊找這樣  
+```java
+int l = 0;
+		int r = array.length; 
+
+		while (l < r) {
+			if (array[l] == l + 1) {
+				l++;
+			} else if (array[l] > r || array[l] <= l || array[array[l] - 1] == array[l])
+			{
+				array[l] = array[--r];
+
+			} else //但這裡直接下去，因為要交換(排序)
+			{
+				temp = array[l];
+				array[l] = array[array[l] - 1];
+				array[temp - 1] = temp;
+
+			}
+		}
+		return l + 1;
+```
+果然很慘  
+44   MPI4107056005_5    stats: Correct    time: 0.357827  
+
+但如果隊已排好的測資來說是最快的  
+希望助教不要懶得生測資直接用排好的陣列  
+不然我會ㄎ一笑  
+
+
+
