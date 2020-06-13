@@ -38,31 +38,33 @@
 邊排序邊找這樣  
 ```java
 int l = 0;
-		int r = array.length; 
+int r = array.length; 
+while (l < r) {
+	if (array[l] == l + 1) {
+		l++;
+	} else if (array[l] > r || array[l] <= l || array[array[l] - 1] == array[l])
+	{
+		array[l] = array[--r];
 
-		while (l < r) {
-			if (array[l] == l + 1) {
-				l++;
-			} else if (array[l] > r || array[l] <= l || array[array[l] - 1] == array[l])
-			{
-				array[l] = array[--r];
+	} else //但這裡直接下去，因為要交換(排序)，浪費很多效能
+	{
+		temp = array[l];
+		array[l] = array[array[l] - 1];
+		array[temp - 1] = temp;
 
-			} else //但這裡直接下去，因為要交換(排序)
-			{
-				temp = array[l];
-				array[l] = array[array[l] - 1];
-				array[temp - 1] = temp;
-
-			}
-		}
-		return l + 1;
+	}
+}
+return l + 1;
 ```
 果然很慘  
 44   MPI4107056005_5    stats: Correct    time: 0.357827  
 
-但如果隊已排好的測資來說是最快的  
-希望助教不要懶得生測資直接用排好的陣列  
-不然我會ㄎ一笑  
+但對已排好的測資來說是最快的  
+這給了我靈感  
+剛剛稍微改了一下程式碼  
+best case 是已排好的測資  
+worst case 是倒序的測資  
+明天來看看結果如何  
 
 
 
