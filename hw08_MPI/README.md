@@ -32,22 +32,6 @@
 不然就是耀中的server很高級真的能平行跑，但被助教發現了我們的陰謀，所以變得不能用thread加速  
 好吧我還是老實點自己想有什麼算法可以加速ㄅ...   
 
------------6/14補，以下引用自[線程魔法使](https://github.com/liao2000/Algorithms-Meet-Java/tree/master/Homework/HW06_SotringArray)-----------  
-### Replace <, >, <=, >= to == , != as possible
-
-Our computer processes "equal" or "not equal" more efficiently than processes "less than" or "greater than"
-
-### Multi-thread (Useless, Unhelpful)
-
-I tried to use multi-thread for optimizing many times, but they are obviously slower than the programs which are single-thread.
-
-I think there are two assumptions can interpret.
-
-First, initialize a thread cost a lot of time. Maybe we need an enough long array to see that "multi-thread run faster than single-thread".
-
-Second, many threads want to get data in array simultaneously, so "cache" cannot work, instead, they get the data by memory without "cache". This is just my view point, maybe it is not correct in the real world.   
-
-齁齁齁那我改開兩個thread看看!  
 
 ### 6/13
 今天發現網路上居然有答案可以抄抄  
@@ -97,5 +81,15 @@ best case 是已排好的測資
 算了我放棄了  
 越改越慢  
 可惡  
+
+### 6/16
+唉，終於知道為什麼會有崩潰仔出現了  
+這種越改越慢的感覺  
+這種不管用什麼算法都會變得更慢的感覺  
+這種根本不知道自己差在哪裡的感覺  
+重點是我照線程魔法使的做法只會越改越慢啊啊啊啊   
+比資料結構還崩潰==  
+資料結構上網查就可以了  
+演算法寫出來很簡單，但沒有最優解...  
 
 
