@@ -1,5 +1,34 @@
 # 題目
 找出一個未出現在陣列中的最小正整數
+# 解
+### 初版O(N)
+最快的，之後不管怎麼改都變慢  
+用兩個for迴圈->2N  
+第一個for:先記錄有那些數字有出現  
+第二個for:從1開始找，看有哪個數字沒有就return  
+ 
+```java
+public int min(int[] array) {
+		int len=array.length,i=0,j;
+		int[] mark=new int[len+1];    //↓只能在這裡加速
+		for(;i<len;++i) {j=array[i]; if(0<j && j<=len) mark[j]=1;}
+		for(i=1;i<=len;++i) if(mark[i]==0) return i;
+		return len+1;
+	}
+```
+```java
+
+推測負數應該也是蠻多的  
+```java
+if(0<j && j<=len) 會比 if(j<=len && 0<j)快
+```
+但還是一直在40幾名  
+想破頭想了很多算法   
+但是都比初版慢  
+最後被我發現一個小地方  
+### Data Type
+![](https://i.imgur.com/fe7weYC.png)  
+
 # log
 ### 6/10
 越簡單的越難  
@@ -105,10 +134,11 @@ MPI4107056005_5,Correct,0.117357 (抄網路上的)
 ### 6/25
 感謝助教  
 我賭贏了  
+11   MPI4107056005                   stats: Correct                                     time: 0.111423  
 這次期末考有夠ㄙㄨㄟ  
 猜題都沒中，看了都沒考  
-只能吃老本(憑上課印象)  
-所以說認真上課真的很重要
+只能吃老本(憑上課印象)    
+所以說認真上課真的很重要    
 然後有些明明寫對，後來又改成錯的，每次考完才發現    
 ![](https://i.imgur.com/XbWMQoR.png)  
 (是什麼蒙蔽了我的雙眼)  
@@ -118,7 +148,7 @@ MPI4107056005_5,Correct,0.117357 (抄網路上的)
 ![](https://i.imgur.com/XJLioDu.png)  
 相信自己的第六感  
 
-之前資料結構是靠作業就回來的  
+之前資料結構是靠作業救回來的  
 這次演算法就靠作業拉分了  
 ![](https://i.imgur.com/vCRDyWL.png)  
 
