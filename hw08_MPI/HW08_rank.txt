@@ -1,0 +1,80 @@
+2020-06-25 07:44:55
+0    MPI7108056029                   stats: Correct                                     time: 0.093752       
+1    MPI4107056025                   stats: Correct                                     time: 0.098827       
+2    MPI4107056042                   stats: Correct                                     time: 0.101804       
+3    MPI4107056011                   stats: Correct                                     time: 0.102443       
+4    MPI4107056015                   stats: Correct                                     time: 0.102831       
+5    MPI4105064002                   stats: Correct                                     time: 0.103304       
+6    MPI4106062146                   stats: Correct                                     time: 0.106269       
+7    MPI7108056053                   stats: Correct                                     time: 0.106806       
+8    MPI4107056029                   stats: Correct                                     time: 0.107556       
+9    MPI4107056036                   stats: Correct                                     time: 0.110997       
+10   MPI4107056010                   stats: Correct                                     time: 0.111102       
+11   MPI4107056005                   stats: Correct                                     time: 0.111423       
+12   MPI4106056012                   stats: Correct                                     time: 0.111968       
+13   MPI4107056020                   stats: Correct                                     time: 0.112391       
+14   MPI4105062052                   stats: Correct                                     time: 0.113611       
+15   MPI4104052115                   stats: Correct                                     time: 0.115433       
+16   MPI4106053040                   stats: Correct                                     time: 0.115800       
+17   MPI4106030323                   stats: Correct                                     time: 0.116021       
+18   MPI4107056007                   stats: Correct                                     time: 0.116034       
+19   MPI7108056089                   stats: Correct                                     time: 0.116418       
+20   MPI4107053032                   stats: Correct                                     time: 0.116616       
+21   MPI4106061131                   stats: Correct                                     time: 0.117861       
+22   MPI4105053128                   stats: Correct                                     time: 0.118202       
+23   MPI4107053026                   stats: Correct                                     time: 0.120290       
+24   MPI4105061037                   stats: Correct                                     time: 0.120665       
+25   MPI4105053126                   stats: Correct                                     time: 0.120700       
+26   MPI0108205083                   stats: Correct                                     time: 0.121180       
+27   MPI4107053020                   stats: Correct                                     time: 0.121408       
+28   MPI4107056019                   stats: Correct                                     time: 0.122287       
+29   MPI4107056027                   stats: Correct                                     time: 0.122923       
+30   MPI7108056084                   stats: Correct                                     time: 0.123324       
+31   MPI4107056024                   stats: Correct                                     time: 0.127533       
+32   MPI4107056021                   stats: Correct                                     time: 0.128195       
+33   MPI4107056004                   stats: Correct                                     time: 0.131935       
+34   MPI4107056035                   stats: Correct                                     time: 0.133210       
+35   MPI4107061142                   stats: Correct                                     time: 0.134309       
+36   MPI4107056003                   stats: Correct                                     time: 0.135109       
+37   MPI4107056037                   stats: Correct                                     time: 0.135256       
+38   MPI4107056002                   stats: Correct                                     time: 0.137363       
+39   MPI4105042035                   stats: Correct                                     time: 0.141052       
+40   MPI4106056040                   stats: Correct                                     time: 0.141886       
+41   MPI4107040018                   stats: Correct                                     time: 0.146615       
+42   MPI4107056034                   stats: Correct                                     time: 0.147273       
+43   MPI4106013024                   stats: Correct                                     time: 0.147930       
+44   MPI4106052129                   stats: Correct                                     time: 0.147937       
+45   MPI4106056029                   stats: Correct                                     time: 0.148766       
+46   MPI4106053002                   stats: Correct                                     time: 0.152741       
+47   MPI4107056001                   stats: Correct                                     time: 0.154254       
+48   MPI4103056004                   stats: Correct                                     time: 0.155210       
+49   MPI4103012038                   stats: Correct                                     time: 0.156096       
+50   MPI4107056028                   stats: Correct                                     time: 0.157446       
+51   MPI4107056023                   stats: Correct                                     time: 0.158080       
+52   MPI4106030213                   stats: Correct                                     time: 0.161111       
+53   MPI4107056040                   stats: Correct                                     time: 0.163321       
+54   MPI7108056022                   stats: Correct                                     time: 0.163367       
+55   MPI4107065004                   stats: Correct                                     time: 0.164941       
+56   MPI4107056008                   stats: Correct                                     time: 0.165002       
+57   MPI4106053013                   stats: Correct                                     time: 0.165873       
+58   MPI4107056017                   stats: Correct                                     time: 0.166196       
+59   MPI4107056032                   stats: Correct                                     time: 0.167548       
+60   MPI4107056006                   stats: Correct                                     time: 0.172943       
+61   MPI4104040050                   stats: Correct                                     time: 0.177452       
+62   MPI4107056018                   stats: Correct                                     time: 0.184543       
+63   MPI4107056016                   stats: Correct                                     time: 0.315722       
+64   MPI4107056009                   stats: Correct                                     time: 0.316621       
+65   MPI4106053136                   stats: Correct                                     time: 0.671264       
+66   MPI4105053103                   stats: Correct                                     time: 0.909672       
+67   MPI4107056030                   stats: Correct                                     time: 1.170236       
+68   MPI4107061131                   stats: Correct                                     time: 1.326783       
+69   MPI4107062045                   stats: Correct                                     time: 1.716294       
+70   MPI4105030219                   stats: Correct                                     time: 54.951908      
+71   MPI4105056033                   stats: Error: compiler error                       time: 0.000000       
+72   MPI4106056042                   stats: Error: function min() Wrong Answer.         time: 0.000000       
+73   MPI4107056012                   stats: Error: function min() Wrong Answer.         time: 0.000000       
+74   MPI4108056020                   stats: Error: function min() Wrong Answer.         time: 0.000000       
+75   MPI7108056126                   stats: error	                                      time: 0.000000       
+76   MPI7108056167                   stats: Error: function min() Wrong Answer.         time: 0.000000       
+77   MPI7108056199                   stats: Error: function min() Wrong Answer.         time: 0.000000       
+78   MPI7108056219                   stats: Error: function min() Wrong Answer.         time: 0.000000       
