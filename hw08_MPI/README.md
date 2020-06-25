@@ -16,8 +16,6 @@ public int min(int[] array) {
 		return len+1;
 	}
 ```
-```java
-
 推測負數應該也是蠻多的  
 ```java
 if(0<j && j<=len) 會比 if(j<=len && 0<j)快
@@ -28,6 +26,14 @@ if(0<j && j<=len) 會比 if(j<=len && 0<j)快
 最後被我發現一個小地方  
 ### Data Type
 ![](https://i.imgur.com/fe7weYC.png)  
+int 是 4 byte  
+但boolean 只有 1 bit!!!!  
+整整差了32倍!!!  
+把mark[]改成boolean後就近前十了  
+(真的不知道我花了這麼多時間想都在幹嘛)  
+但最後發現用網路上的答案是最快的...  
+ㄜ...  
+![](https://i.imgur.com/OLhaNUp.jpg)
 
 # log
 ### 6/10
