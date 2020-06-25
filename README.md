@@ -7,10 +7,13 @@
 [好心der人](https://github.com/tomy0000000/NCHU-Algorithms)  
 
 ### rank紀錄
-hw01_ArrayData: 8  
-hw02_ThreeSum: 8  
-hw03_IslandCounting: 5  
-hw04_PCL: 6  
-hw05_slash: 18  
-hw06_SortingArray: 7  
-hw07_LSPath: 1  
+| HW | rank  |
+| -------- | -------- | 
+| hw01_ArrayData     | 8     |
+|hw02_ThreeSum| 8  |
+|hw03_IslandCounting| 5  |
+|hw04_PCL| 6  |
+|hw05_slash| 18  |
+|hw06_SortingArray| 7  |
+|hw07_LSPath| 1  |
+|hw08_MPI| 11 |
