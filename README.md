@@ -8,7 +8,7 @@
 
 ### rank紀錄
 | HW | rank  |
-| -------- | -------- | ---| 
+| -------- | -------- |
 | hw01_ArrayData  | 8  |
 |hw02_ThreeSum| 8  | 
 |hw03_IslandCounting| 5  | 
