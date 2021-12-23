@@ -7,7 +7,7 @@
 再從end再做一次BFS就可以找到diameter    
 
 # 速度提升
-1.耀中提供的packet一個都不能用(後來看[別人的code](https://github.com/tomy0000000/NCHU-Algorithms/blob/master/Homework%207/LSPath4107056042.java)才發現是用來做資料結構，sorry我都沒用到資料結構QQ)，最算能用也很垃圾，自己實作跑比較快  
+1.耀中提供的packet一個都不能用(後來看[別人的code](https://github.com/tomy0000000/NCHU-Algorithms/blob/master/Homework%207/LSPath4107056042.java)才發現是用來做資料結構，sorry我都沒用到資料結構QQ)，不過就算用了也很垃圾，自己實作跑比較快  
 ```java
 //直接用linklist插入陣列
 for(i=0;i<len;++i) {
