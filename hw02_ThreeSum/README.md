@@ -2,10 +2,10 @@
 整數陣列中的數字皆不重複，請找出能讓 3 個數加起來合為零的組合有幾個
 
 ### [ThreeSum4107056019](https://github.com/liao2000/Algorithms-Meet-Java/tree/master/Homework/HW02_ThreeSum) rank:0  
-強者我同學，線程魔法使，公開的code根本不是人能看的，第0名實至名歸
+強者我同學，線程魔法使，第0名實至名歸
 
 ### ThreeSum4107056005 rank:8
-據我我查，目前最快只有O(N^2)  
+據我所查，目前最快只有O(N^2)  
 先用sort把陣列由小排到大  
 第一個for固定一個數 -> A[i]  
 用while找兩個數，使三數相加=0   
